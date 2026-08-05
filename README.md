@@ -166,8 +166,4 @@ cyber-threat-pipeline/
 
 ---
 
-## What's Next
 
-- Automate ingestion on a schedule (cron on the VM, or migrate to Cloud Scheduler + Cloud Function)
-- Add vendor-name normalization for cleaner aggregation
-- Track catalog changes over time (currently a point-in-time snapshot) to build a true longitudinal velocity trend rather than a single run's data

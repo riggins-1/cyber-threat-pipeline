@@ -61,7 +61,7 @@ ORDER BY cisa_exploit_year DESC, years_to_active_exploitation ASC;
 
 <img width="594" height="432" alt="image" src="https://github.com/user-attachments/assets/2fd1e536-8d37-4198-ab26-376bab804018" />
 
-Link:https://datastudio.google.com/reporting/a48fdc0c-e1ca-47a3-8d47-c207c1c46d8b
+Link: https://datastudio.google.com/reporting/a48fdc0c-e1ca-47a3-8d47-c207c1c46d8b
 
 Ransomware-linked KEV entries (335 of the catalog's 1,661 total) show a **shorter** average exploitation lag — 1.99 years — than non-ransomware-linked entries at 2.64 years. Ransomware operators are not, as might be assumed, primarily scavenging old, forgotten vulnerabilities — they're weaponizing disclosures noticeably faster than the broader attacker population, favoring fresher, more reliable exploits over legacy flaws that defenders have had more time to patch.
 
@@ -81,7 +81,7 @@ ORDER BY avg_years_to_exploitation DESC;
 
 <img width="676" height="452" alt="image" src="https://github.com/user-attachments/assets/b82ce1d8-ff45-47ec-952c-e78425535f05" />
 
-https://datastudio.google.com/reporting/ff0fdc15-7c80-4827-9443-fa9ae9a33e8d
+Link: https://datastudio.google.com/reporting/ff0fdc15-7c80-4827-9443-fa9ae9a33e8d
 
 Microsoft dominates the catalog by raw volume (382 entries, over 4x the next-closest vendor), but the more actionable signal is ransomware concentration as a *share* of each vendor's KEV entries: **Fortinet (44.8%)**, **VMware (34.6%)**, and **Ivanti (34.3%)** have the highest proportion of their vulnerabilities tied to known ransomware campaigns — well above Microsoft's 27.2%. Notably, Apple, Google, and Android show **zero** ransomware-linked KEV entries despite having a combined 182 total entries, suggesting ransomware operators in this dataset concentrate heavily on enterprise network/infrastructure vendors rather than consumer OS platforms. For a resource-constrained patch team, this argues for weighting network-edge vendors (Fortinet, Ivanti, VMware, Citrix) by ransomware-linkage rate, not just raw KEV count.
 

@@ -79,7 +79,7 @@ ORDER BY avg_years_to_exploitation DESC;
 
 ## Where to Prioritize: Vendor Risk Concentration
 
-<img width="676" height="452" alt="image" src="https://github.com/user-attachments/assets/b82ce1d8-ff45-47ec-952c-e78425535f05" />
+<img width="1386" height="1078" alt="image" src="https://github.com/user-attachments/assets/876944d9-2ae6-464d-a4cc-338d581e513a" />
 
 Link: https://datastudio.google.com/reporting/ff0fdc15-7c80-4827-9443-fa9ae9a33e8d
 

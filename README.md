@@ -37,8 +37,9 @@ Looker Studio Dashboard
 
 ## Key Finding: Same-Year Weaponization Has Become the Norm
 
-<img width="397" height="306" alt="image" src="https://github.com/user-attachments/assets/146f3492-613b-41e0-9e41-20c2feccbab1" />
+<img width="1762" height="1036" alt="image" src="https://github.com/user-attachments/assets/3dce0c10-5ec9-4de8-8538-5e9b1f9e73d2" />
 
+(Note: total KEV additions varied significantly by year — 2022 alone accounted for 494 entries, nearly triple a typical year — so percentages above are shown on a relative basis; see the interactive dashboard for absolute counts.)
 Link: https://datastudio.google.com/reporting/59dce8be-046f-4840-97c2-988d6e239a1f
 
 Since 2023, roughly **60-65% of all newly added KEV entries were weaponized in the same calendar year their CVE ID was assigned** (64.7% in 2023, 62.4% in 2024, 61.6% in 2025, 59.9% year-to-date in 2026). That's a sharp jump from 2021 (38.6%) and especially 2022 (just 16.4%, the low point in the dataset — that year's KEV additions were dominated by a long tail of older, previously-undetected exploitation of legacy CVEs rather than fresh ones). The consistency of the ~60% figure across four straight years suggests same-year exploitation isn't a fluke — it's become the baseline expectation, not the exception. *(Note: 2026 figures are partial-year, through the pipeline's run date.)*

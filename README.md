@@ -78,7 +78,9 @@ ORDER BY avg_years_to_exploitation DESC;
 
 ## Where to Prioritize: Vendor Risk Concentration
 
-*[Insert the Query 3 chart image here]*
+<img width="676" height="452" alt="image" src="https://github.com/user-attachments/assets/b82ce1d8-ff45-47ec-952c-e78425535f05" />
+
+https://datastudio.google.com/reporting/ff0fdc15-7c80-4827-9443-fa9ae9a33e8d
 
 Microsoft dominates the catalog by raw volume (382 entries, over 4x the next-closest vendor), but the more actionable signal is ransomware concentration as a *share* of each vendor's KEV entries: **Fortinet (44.8%)**, **VMware (34.6%)**, and **Ivanti (34.3%)** have the highest proportion of their vulnerabilities tied to known ransomware campaigns — well above Microsoft's 27.2%. Notably, Apple, Google, and Android show **zero** ransomware-linked KEV entries despite having a combined 182 total entries, suggesting ransomware operators in this dataset concentrate heavily on enterprise network/infrastructure vendors rather than consumer OS platforms. For a resource-constrained patch team, this argues for weighting network-edge vendors (Fortinet, Ivanti, VMware, Citrix) by ransomware-linkage rate, not just raw KEV count.
 

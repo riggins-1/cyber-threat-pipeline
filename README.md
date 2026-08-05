@@ -38,6 +38,7 @@ Looker Studio Dashboard
 ## Key Finding: Same-Year Weaponization Has Become the Norm
 
 <img width="397" height="306" alt="image" src="https://github.com/user-attachments/assets/146f3492-613b-41e0-9e41-20c2feccbab1" />
+
 Link: https://datastudio.google.com/reporting/59dce8be-046f-4840-97c2-988d6e239a1f
 
 Since 2023, roughly **60-65% of all newly added KEV entries were weaponized in the same calendar year their CVE ID was assigned** (64.7% in 2023, 62.4% in 2024, 61.6% in 2025, 59.9% year-to-date in 2026). That's a sharp jump from 2021 (38.6%) and especially 2022 (just 16.4%, the low point in the dataset — that year's KEV additions were dominated by a long tail of older, previously-undetected exploitation of legacy CVEs rather than fresh ones). The consistency of the ~60% figure across four straight years suggests same-year exploitation isn't a fluke — it's become the baseline expectation, not the exception. *(Note: 2026 figures are partial-year, through the pipeline's run date.)*
@@ -57,7 +58,9 @@ ORDER BY cisa_exploit_year DESC, years_to_active_exploitation ASC;
 
 ## Ransomware Exploitation Lag
 
-*[Insert the Query 2 chart image here]*
+<img width="594" height="432" alt="image" src="https://github.com/user-attachments/assets/2fd1e536-8d37-4198-ab26-376bab804018" />
+
+Link:https://datastudio.google.com/reporting/a48fdc0c-e1ca-47a3-8d47-c207c1c46d8b
 
 Ransomware-linked KEV entries (335 of the catalog's 1,661 total) show a **shorter** average exploitation lag — 1.99 years — than non-ransomware-linked entries at 2.64 years. Ransomware operators are not, as might be assumed, primarily scavenging old, forgotten vulnerabilities — they're weaponizing disclosures noticeably faster than the broader attacker population, favoring fresher, more reliable exploits over legacy flaws that defenders have had more time to patch.
 

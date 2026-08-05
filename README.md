@@ -59,7 +59,7 @@ ORDER BY cisa_exploit_year DESC, years_to_active_exploitation ASC;
 
 ## Ransomware Exploitation Lag
 
-<img width="594" height="432" alt="image" src="https://github.com/user-attachments/assets/2fd1e536-8d37-4198-ab26-376bab804018" />
+<img width="1348" height="1052" alt="image" src="https://github.com/user-attachments/assets/3527f765-fd4b-4872-a68d-e54d16bb0cf1" />
 
 Link: https://datastudio.google.com/reporting/a48fdc0c-e1ca-47a3-8d47-c207c1c46d8b
 

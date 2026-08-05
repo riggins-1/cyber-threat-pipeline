@@ -97,7 +97,7 @@ LIMIT 15;
 
 ---
 
-## Top 10 Most Time-Critical Vulnerabilities
+## Top 15 Most Time-Critical Vulnerabilities
 
 CISA assigns each KEV entry a federal remediation deadline. Sorting by the shortest gap between the exploitation-confirmed date and that deadline surfaces the vulnerabilities CISA considered most urgent:
 
